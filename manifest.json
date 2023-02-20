@@ -55,6 +55,10 @@
                 [
                     "sound/Crossbow_loading_start.ogg"
                 ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/Click.ogg"
+                ],
                 "TAB_CLOSE":
                 [
                     "sound/Wooden_Door_close2.ogg",
@@ -70,7 +74,55 @@
             "background_music":
             [
                 "music/track_1.mp3"
-            ]
+            ],
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 203,
+                        "s": 100,
+                        "l": 95
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 223,
+                        "s": 45,
+                        "l": 13
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 217,
+                        "s": 100,
+                        "l": 75
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 100
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/night.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#000000"
+                },
+                "light":
+                {
+                    "image": "wallpaper/day.png",
+                    "text_color": "#000000",
+                    "text_shadow": "#FFFFFF"
+                }
+            }
         },
         "schema_version": 1
     },
